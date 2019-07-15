@@ -1,0 +1,40 @@
+/* For the whole site */
+html{
+    background-color: #004466;
+    color: white;
+    font-family: arial;
+}
+/* Title */
+p{
+	font-size: 30px;
+}
+/* Display */
+body{
+	height: 100%;
+	width: 100%;
+	cursor: default;
+}
+/* Formatting the navigation links */
+body nav{
+    width: 200px;
+}
+
+body nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #004466;
+}
+
+body nav li{
+    float: left;
+}
+
+body nav ul li a{
+	display: inline-block;
+	color: red;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
