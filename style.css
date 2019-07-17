@@ -4,9 +4,11 @@ html{
     color: white;
     font-family: arial;
 }
-/* Title */
 p{
-	font-size: 30px;
+	font-size: 25px;
+}
+p1{
+	font-size: 20px;
 }
 /* Display */
 body{
@@ -16,7 +18,10 @@ body{
 }
 /* Formatting the navigation links */
 body nav{
-    width: 200px;
+	position: fixed;
+	z-index: 100;
+    top: 0px;
+    left: 0px;
 }
 
 body nav ul {
@@ -24,10 +29,13 @@ body nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #004466;
+  background-color: black;
+  height: 100px;
+  width: 1920px;
+
 }
 
-body nav li{
+body nav ul li{
     float: left;
 }
 
@@ -37,4 +45,54 @@ body nav ul li a{
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+}
+
+/* Displaying the champions */
+body dl{
+	height: 100%;
+	width: 1600px;
+	position: relative;
+	top: 100px;
+	left: 75px;
+}
+body dl dd{
+	border-top: 1px solid grey;
+}
+body dl dd img{
+	height: 25px;
+	width: 25px;
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+body img{
+	height: 40px;
+	width: 40px;
+}
+/* Hovering over unit */
+.tooltip a{
+	position: relative;
+	display: inline-block;
+}
+.tooltip .tooltiptext{
+	visibility: hidden;
+	width: 120px;
+	bottom: 100%;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 200;
+}
+.tooltip a:hover .tooltiptext{
+	visibility: visible;
+}
+.row{
+	position: absolute;
+	top: 138px;
+	left: 320px;
+	height: 300px;
+	width: 1200px;
 }
