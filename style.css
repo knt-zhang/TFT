@@ -10,6 +10,29 @@ p{
 p1{
 	font-size: 20px;
 }
+p2{
+	font-size: 18px;
+	color: grey;
+}
+p3{
+	font-size: 18px;
+	color: green;
+}
+p4{
+	font-size: 18px;
+	color: blue;
+}
+p5{
+	font-size: 18px;
+	color: purple;
+}
+p6{
+	font-size: 18px;
+	color: gold;
+}
+p7{
+	font-size: 11px;
+}
 /* Display */
 body{
 	height: 100%;
@@ -76,11 +99,12 @@ body img{
 }
 .tooltip .tooltiptext{
 	visibility: hidden;
-	width: 120px;
+	width: 200px;
 	bottom: 100%;
 	background-color: black;
 	color: #fff;
-	text-align: center;
+
+	/*text-align: center;*/
 	border-radius: 6px;
 	padding: 5px 0;
 	position: absolute;
@@ -89,10 +113,52 @@ body img{
 .tooltip a:hover .tooltiptext{
 	visibility: visible;
 }
-.row{
+/* Champion positioning */
+.row{	/* 1 star */
 	position: absolute;
 	top: 145px;
 	left: 320px;
-	height: 300px;
+	height: 100px;
 	width: 1200px;
 }
+.row1{	/* 2 star */
+	position: absolute;
+	top: 192px;
+	left: 320px;
+	height: 100px;
+	width: 1200px;
+}
+.row2{	/* 3 star */
+	position: absolute;
+	top: 240px;
+	left: 320px;
+	height: 100px;
+	width: 1200px;
+}
+.row3{	/* 4 star */
+	position: absolute;
+	top: 289px;
+	left: 320px;
+	height: 100px;
+	width: 1200px;
+}
+.row4{	/* 5 star */
+	position: absolute;
+	top: 337px;
+	left: 320px;
+	height: 100px;
+	width: 1200px;
+}
+/* Creating columns for displaying comps */
+.column{
+	float: left;
+	width: 32%;
+	padding: 10px;
+	height: 600px;
+}
+.clear:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
