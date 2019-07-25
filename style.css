@@ -3,6 +3,9 @@ html{
     background-color: #004466;
     color: white;
     font-family: arial;
+    border: 2px solid black;
+    height: 1080px;
+    width: 1893px;
 }
 p{
 	font-size: 25px;
@@ -39,6 +42,10 @@ body{
 	width: 100%;
 	cursor: default;
 }
+/*div.background{
+	background: url(images/tft_bg.png) repeat;
+
+}*/
 /* Formatting the navigation links */
 body nav{
 	position: fixed;
@@ -96,6 +103,7 @@ body img{
 .tooltip a{
 	position: relative;
 	display: inline-block;
+	padding: 2px;
 }
 .tooltip .tooltiptext{
 	visibility: hidden;
@@ -161,4 +169,18 @@ body img{
 	display: table;
 	clear: both;
 }
-
+/* ------------  Items  ------------ */
+.items{
+	position: absolute;
+	top: 146px;
+	left: 150px;
+	height: 50px;
+	width: 1200px;
+}
+.items1{
+	position: absolute;
+	top: 192px;
+	left: 150px;
+	height: 100px;
+	width: 1200px;
+}
