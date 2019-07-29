@@ -26,10 +26,11 @@
 	    	<dt>
 	    		<p1>Item Combinations</p1>
 	    	</dt>
-	    	<div class = "clear">
-	    		<div class = "column">
-					<dt>
+	    	<div class = "clear">	<!-- First Row -->
+	    		<div class = "column-item">	<!-- 1st Row 1st Column  -->
+					<dt>	<!-- Shows combined item and item description  -->
 						<img src = "images/items/bfsword.png"></img><br>
+						
 						<dd>
 			    			<div class = "tooltip">
 			    				<a>
@@ -37,9 +38,9 @@
 				    			</a>
 				    			<a>
 				    				= <img src = "images/items/infinityedge.png"></img>
-					    			<span class = "tooltiptext">Infinity Edge</span>
+					    			<span class = "tooltiptext">Infinity Edge<p7><br>Attack Damage: +40</p7></span>
 				    			</a>
-				    			<p7>Critical strikes deal +150% damage</p7>
+				    			<p7>Grants 150% bonus critical strike damage</p7>
 			    			</div>
 			    		</dd>
 			    		<br>
@@ -50,9 +51,9 @@
 				    			</a>
 				    			<a>
 				    				= <img src = "images/items/swordofthedivine.png"></img>
-					    			<span class = "tooltiptext">Sword of the Divine</span> 
+					    			<span class = "tooltiptext">Sword of the Divine<p7><br>Attack Damage: +20<br>Attack Speed: +20%</p7></span> 
 				    			</a>
-				    			<p7>Every 1 second, gain a 5% chance to gain 100% critical strike</p7>
+				    			<p7>Every second, has a 5% chance to gain 100% critical strike until the end of combat</p7>
 			    			</div>
 			    		</dd>
 			    		<br>
@@ -63,9 +64,9 @@
 				    			</a>
 				    			<a>
 				    				= <img src = "images/items/hextechgunblade.png"></img>
-					    			<span class = "tooltiptext">Hextech Gunblade</span>
+					    			<span class = "tooltiptext">Hextech Gunblade<p7><br>Ability Power: +20<br>Attack Damage: +20</p7></span>
 				    			</a>
-				    			<p7>Heal for 33% of damage dealt</p7>
+				    			<p7>Heal for 33% of damage dealt, does not heal for damage dealt by items</p7>
 			    			</div>
 			    		</dd>
 			    		<br>
@@ -76,22 +77,9 @@
 				    			</a>
 				    			<a>
 				    				= <img src = "images/items/spearofshojin.png"></img>
-					    			<span class = "tooltiptext">Spear of Shojin</span>
+					    			<span class = "tooltiptext">Spear of Shojin<p7><br>Starting mana: +20<br>Attack Damage: +20</p7></span>
 				    			</a>
-				    			<p7>After ulting, gain 15% mana per attack</p7>
-			    			</div>
-			    		</dd>
-			    		<br>
-			    		<dd>
-			    			<div class = "tooltip">
-			    				<a>
-					    			+ <img src = "images/items/giantsbelt.png"></img>
-				    			</a>
-				    			<a>
-				    				= <img src = "images/items/zekesherald.png"></img>
-					    			<span class = "tooltiptext">Zeke's Herald</span>
-				    			</a>
-				    			<p7>Allies 2 spaces to the left and right gain 15% attack speed</p7>
+				    			<p7>After casting wielder's ability for the first time, basic attacks restore 15% of maximum mana on-hit</p7>
 			    			</div>
 			    		</dd>
 			    		<br>
@@ -102,9 +90,9 @@
 				    			</a>
 				    			<a>
 				    				= <img src = "images/items/guardianangel.png"></img>
-					    			<span class = "tooltiptext">Guardian Angel</span>
+					    			<span class = "tooltiptext">Guardian Angel<p7><br>Attack Damage: +20<br>Armor: +20<br>Grievous Wounds: Prevents unit from healing</p7></span>
 				    			</a>
-				    			<p7>Revive with 1000 HP</p7>
+				    			<p7>Upon death, clears Grievous Wounds and revives after 2 seconds with 1000 HP</p7>
 			    			</div>
 			    		</dd>
 			    		<br>
@@ -115,9 +103,22 @@
 				    			</a>
 				    			<a>
 				    				= <img src = "images/items/bloodthirster.png"></img>
-					    			<span class = "tooltiptext">Bloodthirster</span>
+					    			<span class = "tooltiptext">Bloodthirster<p7><br>Attack Damage: +20<br>Magic Resist: +20</p7></span>
 				    			</a>
-				    			<p7>50% lifesteal</p7>
+				    			<p7>Heal for 50% of damage dealt by basic attacks</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/giantsbelt.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/zekesherald.png"></img>
+					    			<span class = "tooltiptext">Zeke's Herald<p7><br>Attack Damage: +20<br>Health: +200</p7></span>
+				    			</a>
+				    			<p7>At the beginning of combat, the wearer and units 2 spaces to the left and right gain 15% attack speed</p7>
 			    			</div>
 			    		</dd>
 			    		<br>
@@ -128,16 +129,775 @@
 				    			</a>
 				    			<a>
 				    				= <img src = "images/items/youmuusghostblade.png"></img>
-					    			<span class = "tooltiptext">Youmuu's Ghostblade</span>
+					    			<span class = "tooltiptext">Youmuu's Ghostblade<p7><br>Attack Damage: +40</p7></span>
 				    			</a>
-				    			<p7>Become an assassin</p7>
+				    			<p7>Becomes an Assassin</p7>
+			    			</div>
+			    		</dd>
+			    	</dt>
+			    </div>
+			    <div class = "column-item">	<!-- 1R 2C -->
+					<dt>	<!-- Shows combined item and item description  -->
+						<img src = "images/items/recurvebow.png"></img><br>
+						<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/bfsword.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/swordofthedivine.png"></img>
+					    			<span class = "tooltiptext">Sword of the Divine<p7><br>Attack Damage: +20<br>Attack Speed: +20%</p7></span>
+				    			</a>
+				    			<p7>Every second, has a 5% chance to gain 100% critical strike until the end of combat</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/recurvebow.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/rapidfirecannon.png"></img>
+					    			<span class = "tooltiptext">Rapid Fire Cannon<p7><br>Attack Speed: +40%</p7></span> 
+				    			</a>
+				    			<p7>Basic attacks cannot miss, doubles attack range</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/needlesslylargerod.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/guinsoosrageblade.png"></img>
+					    			<span class = "tooltiptext">Guinsoo's Rageblade<p7><br>Ability Power: +20<br>Attack Speed: +20%</p7></span>
+				    			</a>
+				    			<p7>Gain 4% attack speed on-hit, stacks infinitely</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/tearofthegoddess.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/statikkshiv.png"></img>
+					    			<span class = "tooltiptext">Statikk Shiv<p7><br>Starting mana: +20<br>Attack Speed: +20%</p7></span>
+				    			</a>
+				    			<p7>Every 3rd attack deals 100 spash damage to 3 enemies</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/chainvest.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/phantomdancer.png"></img>
+					    			<span class = "tooltiptext">Phantom Dancer<p7><br>Attack Speed: +20%<br>Armor: +20</p7></span>
+				    			</a>
+				    			<p7>Dodges all critical strikes</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/negatroncloak.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/cursedblade.png"></img>
+					    			<span class = "tooltiptext">Cursed Blade<p7><br>Attack Speed: +20%<br>Magic Resist: +20</p7></span>
+				    			</a>
+				    			<p7>Basic attacks have a 20% chance to shrink the target, removing 1 star, up until 0 stars, lasts until the end of the round</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/giantsbelt.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/titanichydra.png"></img>
+					    			<span class = "tooltiptext">Titanic Hydra<p7><br>Attack Speed: +20%<br>Armor: +20</p7></span>
+				    			</a>
+				    			<p7>Basic attacks deal 10% of the wearer's max HP bonus damage to the target and adjacent enemies</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/spatula.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/bladeoftheruinedking.png"></img>
+					    			<span class = "tooltiptext">Blade of the Ruined King<p7><br>Attack Speed: +40%</p7></span>
+				    			</a>
+				    			<p7>Becomes a Blademaster</p7>
+			    			</div>
+			    		</dd>
+			    	</dt>
+			    </div>
+			    <div class = "column-item">	<!-- 1R 3C -->
+					<dt>	<!-- Shows combined item and item description  -->
+						<img src = "images/items/chainvest.png"></img><br>
+						<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/bfsword.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/guardianangel.png"></img>
+					    			<span class = "tooltiptext">Guardian Angel<p7><br>Attack Damage: +20<br>Armor: +20<br>Grievous Wounds: Prevents unit from healing</p7></span>
+				    			</a>
+				    			<p7>Upon death, clears Grievous Wounds and revives after 2 seconds with 1000 HP</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/recurvebow.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/phantomdancer.png"></img>
+					    			<span class = "tooltiptext">Phantom Dancer<p7><br>Attack Speed: +20%<br>Armor: +20</p7></span> 
+				    			</a>
+				    			<p7>Dodges all critical strikes</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/needlesslylargerod.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/locketoftheironsolari.png"></img>
+					    			<span class = "tooltiptext">Locket of the Iron Solari<p7><br>Ability Power: +20<br>Armor: +20</p7></span>
+				    			</a>
+				    			<p7>At the beginning of combat, the wearer and units 2 spaces to the left and right gain a 200 HP shield</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/tearofthegoddess.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/frozenheart.png"></img>
+					    			<span class = "tooltiptext">Frozen Heart<p7><br>Starting mana: +20<br>Armor: +20</p7></span>
+				    			</a>
+				    			<p7>Adjacent enemies have their attack speed reduced by 25%</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/chainvest.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/thornmail.png"></img>
+					    			<span class = "tooltiptext">Thornmail<p7><br>Armor: +40</p7></span>
+				    			</a>
+				    			<p7>Reflect 100% of physical damage mitigated as true damage to the attacker</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/negatroncloak.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/swordbreaker.png"></img>
+					    			<span class = "tooltiptext">Sword Breaker<p7><br>Armor: +20<br>Magic Resist: +20</p7></span>
+				    			</a>
+				    			<p7>Basic attacks have a 25% chance to disarm the target for 4 seconds</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/giantsbelt.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/redbuff.png"></img>
+					    			<span class = "tooltiptext">Titanic Hydra<p7><br>Health: +200<br>Armor: +20<br>Grievous Wounds: Prevents unit from healing</p7></span>
+				    			</a>
+				    			<p7>Basic attacks apply a burn on the enemies hit for 5 seconds, dealing 2.5% HP of the target's max HP as true damage each second and applying Grievous Wounds for the duration</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/spatula.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/knightsvow.png"></img>
+					    			<span class = "tooltiptext">Knight's Vow<p7><br>Armor: +40</p7></span>
+				    			</a>
+				    			<p7>Becomes a Knight</p7>
+			    			</div>
+			    		</dd>
+			    	</dt>
+			    </div>
+			    <div class = "column-item">	<!-- 1R 4C -->
+					<dt>	<!-- Shows combined item and item description  -->
+						<img src = "images/items/negatroncloak.png"></img><br>
+						<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/bfsword.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/bloodthirster.png"></img>
+					    			<span class = "tooltiptext">Bloodthirster<p7><br>Attack Damage: +20<br>Armor: +20</p7></span>
+				    			</a>
+				    			<p7>Heal for 50% of damage dealt by basic attacks</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/recurvebow.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/cursedblade.png"></img>
+					    			<span class = "tooltiptext">Cursed Blade<p7><br>Attack Speed: +20%<br>Magic Resist: +20</p7></span> 
+				    			</a>
+				    			<p7>Basic attacks have a 20% chance to shrink the target, removing 1 star, up until 0 stars, lasts until the end of the round</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/needlesslylargerod.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/ionicspark.png"></img>
+					    			<span class = "tooltiptext">Ionic Spark<p7><br>Ability Power: +20<br>Magic Resist: +20</p7></span>
+				    			</a>
+				    			<p7>At the beginning of combat, the wearer and units 2 spaces to the left and right gain a 200 HP shield</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/tearofthegoddess.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/hush.png"></img>
+				    				<span class = "tooltiptext">Hush<p7><br>Starting mana: +20<br>Magic Resist: +20</p7></span>
+				    			</a>
+				    			<p7>Basic attacks have a 50% chance to silence the target for 5 seconds</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/chainvest.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/swordbreaker.png"></img>
+					    			<span class = "tooltiptext">Sword Breaker<p7><br>Armor: +40</p7></span>
+				    			</a>
+				    			<p7>Basic attacks have a 25% chance to disarm the target for 4 seconds</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/negatroncloak.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/dragonsclaw.png"></img>
+					    			<span class = "tooltiptext">Dragon's Claw<p7><br>Armor: +20<br>Magic Resist: +20</p7></span>
+				    			</a>
+				    			<p7>83% resistance to magic damage</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/giantsbelt.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/zephyr.png"></img>
+					    			<span class = "tooltiptext">Zephyr<p7><br>Health: +200<br>Armor: +20</p7></span>
+				    			</a>
+				    			<p7>On start of combat banish an enemy, target mirrors the wielder's placement on the other side of the board</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/spatula.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/runaanshurricane.png"></img>
+					    			<span class = "tooltiptext">Runaan's Hurricane<p7><br>Armor: +40</p7></span>
+				    			</a>
+				    			<p7>Basic attacks hit 1 additional enemy for 25% damage, applying on-hit effects</p7>
+			    			</div>
+			    		</dd>
+			    	</dt>
+			    </div>
+			</div>
+			<div class = "clear">	<!-- Second Row -->
+	    		<div class = "column-item">	<!-- 2nd Row 1st Column -->
+					<dt>	<!-- Shows combined item and item description  -->
+						<img src = "images/items/needlesslylargerod.png"></img><br>
+						<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/bfsword.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/hextechgunblade.png"></img>
+					    			<span class = "tooltiptext">Hextech Gunblade<p7><br>Ability Power: +20<br>Attack Damage: +20</p7></span>
+				    			</a>
+				    			<p7>Heal for 33% of damage dealt, does not heal for damage dealt by items</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/recurvebow.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/guinsoosrageblade.png"></img>
+					    			<span class = "tooltiptext">Guinsoo's Rageblade<p7><br>Ability Power: +20<br>Attack Speed: +20%</p7></span>
+				    			</a>
+				    			<p7>Basic attacks grant 4% attack speed, stacks infinitely</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/needlesslylargerod.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/rabadonsdeathcap.png"></img>
+					    			<span class = "tooltiptext">Rabadon's Deathcap<p7><br>Ability Power: +40</p7></span>
+				    			</a>
+				    			<p7>Increases ability power by 50%</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/tearofthegoddess.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/ludensecho.png"></img>
+					    			<span class = "tooltiptext">Luden's Echo<p7><br>Ability Power: +20<br>Starting mana: +20</p7></span>
+				    			</a>
+				    			<p7>Special Ability deals 200 magic damage to all adjacent enemies to target</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/chainvest.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/locketoftheironsolari.png"></img>
+					    			<span class = "tooltiptext">Locket of the Iron Solari<p7><br>Ability Power: +20<br>Armor: +20</p7></span>
+				    			</a>
+				    			<p7>On start of combat, grant 200 HP shield to allies 2 spaces to the left and right</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/negatroncloak.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/ionicspark.png"></img>
+					    			<span class = "tooltiptext">Ionic Spark<p7><br>Ability Power: +20<br>Magic Resist: +20</p7></span>
+				    			</a>
+				    			<p7>Whenever an enemy casts a spell, they take 200 true damage</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/giantsbelt.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/morellonomicon.png"></img>
+					    			<span class = "tooltiptext">Morellonomicon<p7><br>Ability Power: +20<br>Health: +200<br>Grievous Wounds: Prevents unit from healing</p7></span>
+				    			</a>
+				    			<p7>Spells burn for 5% of max HP per second for 5 seconds and applying Grievous Wounds for the duration</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/spatula.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/yuumi.png"></img>
+					    			<span class = "tooltiptext">Yuumi<p7><br>Ability Power: +40</p7></span>
+				    			</a>
+				    			<p7>Becomes a Sorceror</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    	</dt>
+			    </div>
+			    <div class = "column-item">	<!-- 2R 2C -->
+					<dt>	<!-- Shows combined item and item description  -->
+						<img src = "images/items/tearofthegoddess.png"></img><br>
+						<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/bfsword.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/spearofshojin.png"></img>
+					    			<span class = "tooltiptext">Spear of Shojin<p7><br>Starting mana: +20<br>Attack Damage: +20</p7></span>
+				    			</a>
+				    			<p7>After casting wielder's ability for the first time, basic attacks restore 15% of maximum mana on-hit</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/recurvebow.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/statikkshiv.png"></img>
+					    			<span class = "tooltiptext">Statikk Shiv<p7><br>Starting mana: +20<br>Attack Speed: +20%</p7></span> 
+				    			</a>
+				    			<p7>Every 3rd attack deals 100 spash damage to 3 enemies</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/needlesslylargerod.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/ludensecho.png"></img>
+					    			<span class = "tooltiptext">Luden's Echo<p7><br>Ability Power: +20<br>Magic Resist: +20</p7></span>
+				    			</a>
+				    			<p7>Special Ability deals 200 magic damage to all adjacent enemies to target</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/tearofthegoddess.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/seraphsembrace.png"></img>
+					    			<span class = "tooltiptext">Seraph's Embrace<p7><br>Starting mana: +40</p7></span>
+				    			</a>
+				    			<p7>Regain 20 mana each time a spell is cast</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/chainvest.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/frozenheart.png"></img>
+					    			<span class = "tooltiptext">Frozen Heart<p7><br>Starting mana: +20<br>Armor: +20</p7></span>
+				    			</a>
+				    			<p7>Adjacent enemies have their attack speed reduced by 25%</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/negatroncloak.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/hush.png"></img>
+					    			<span class = "tooltiptext">Hush<p7><br>Starting mana: +20<br>Magic Resist: +20</p7></span>
+				    			</a>
+				    			<p7>Basic attacks have a 50% chance to silence the target for 5 seconds</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/giantsbelt.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/redemption.png"></img>
+					    			<span class = "tooltiptext">Redemption<p7><br>Starting mana: +20<br>Health: +200</p7></span>
+				    			</a>
+				    			<p7>At 25% health, after a small delay, heal all allies around the wearer for 1000 HP.</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/spatula.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/darkin.png"></img>
+					    			<span class = "tooltiptext">Darkin<p7><br>Starting mana: +40</p7></span>
+				    			</a>
+				    			<p7>Becomes a Demon</p7>
+			    			</div>
+			    		</dd>
+			    	</dt>
+			    </div>
+			    <div class = "column-item">	<!-- 2R 3C -->
+					<dt>	<!-- Shows combined item and item description  -->
+						<img src = "images/items/giantsbelt.png"></img><br>
+						<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/bfsword.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/zekesherald.png"></img>
+					    			<span class = "tooltiptext">Zeke's Herald<p7><br>Attack Damage: +20<br>Health: +200</p7></span>
+				    			</a>
+				    			<p7>At the beginning of combat, the wearer and units 2 spaces to the left and right gain 15% attack speed</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/recurvebow.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/titanichydra.png"></img>
+					    			<span class = "tooltiptext">Titanic Hydra<p7><br>Attack Speed: +20%<br>Health: +200</p7></span> 
+				    			</a>
+				    			<p7>Basic attacks deal 10% of the wearer's max HP bonus damage to the target and adjacent enemies</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/needlesslylargerod.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/morellonomicon.png"></img>
+					    			<span class = "tooltiptext">Morellonomicon<p7><br>Ability Power: +20<br>Health: +200<br>Grievous Wounds: Prevents unit from healing</p7></span>
+				    			</a>
+				    			<p7>Spells burn for 5% of max HP per second for 5 seconds and applying Grievous Wounds for the duration</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/tearofthegoddess.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/redemption.png"></img>
+					    			<span class = "tooltiptext">Redemption<p7><br>Starting mana: +20<br>Health: +200</p7></span>
+				    			</a>
+				    			<p7>At 25% health, after a small delay, heal all allies around the wearer for 1000 HP</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/chainvest.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/redbuff.png"></img>
+					    			<span class = "tooltiptext">Red Buff<p7><br>Health: +200<br>Armor: +2<br>Grievous Wounds: Prevents unit from healing</p7></span>
+				    			</a>
+				    			<p7>Basic attacks apply a burn on the enemies hit for 5 seconds, dealing 2.5% HP of the target's max HP as true damage, and applys Grievous Wounds for the duration</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/negatroncloak.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/zephyr.png"></img>
+					    			<span class = "tooltiptext">Zephyr<p7><br>Health: +200<br>Magic Resist: +20</p7></span>
+				    			</a>
+				    			<p7>On start of combat banish an enemy, target mirrors the wielder's placement on the other side of the board</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/giantsbelt.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/warmogsarmor.png"></img>
+					    			<span class = "tooltiptext">Warmog's Armor<p7><br>Health: +400</p7></span>
+				    			</a>
+				    			<p7>Regenerate 6% of missing HP per second</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/spatula.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/frozenmallet.png"></img>
+					    			<span class = "tooltiptext">Frozen Mallet<p7><br>Health: +400</p7></span>
+				    			</a>
+				    			<p7>Becomes a Glacial</p7>
+			    			</div>
+			    		</dd>
+			    	</dt>
+			    </div>
+			    <div class = "column-item">	<!-- 2R 4C -->
+					<dt>	<!-- Shows combined item and item description  -->
+						<img src = "images/items/spatula.png"></img><br>
+						<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/bfsword.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/youmuusghostblade.png"></img>
+					    			<span class = "tooltiptext">Youmuu's Ghostblade<p7><br>Attack Damage: +40</p7></span>
+				    			</a>
+				    			<p7>Becomes an Assassin</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/recurvebow.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/bladeoftheruinedking.png"></img>
+					    			<span class = "tooltiptext">Blade of the Ruined King<p7><br>Attack Speed: +40%</p7></span> 
+				    			</a>
+				    			<p7>Becomes a Blademaster</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/needlesslylargerod.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/yuumi.png"></img>
+					    			<span class = "tooltiptext">Yuumi<p7><br>Ability Power: +40</p7></span>
+				    			</a>
+				    			<p7>Becomes a Sorceror</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/tearofthegoddess.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/darkin.png"></img>
+					    			<span class = "tooltiptext">Darkin<p7><br>Starting mana: +40</p7></span>
+				    			</a>
+				    			<p7>Becomes a Demon</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/chainvest.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/knightsvow.png"></img>
+					    			<span class = "tooltiptext">Knight's Vow<p7><br>Armor: +40</p7></span>
+				    			</a>
+				    			<p7>Becomes a Knight</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/negatroncloak.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/runaanshurricane.png"></img>
+					    			<span class = "tooltiptext">Runaan's Hurricane<p7><br>Magic Resist: +40</p7></span>
+				    			</a>
+				    			<p7>Basic attacks hit 1 additional enemy for 25% damage, applying on-hit effects</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/giantsbelt.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/frozenmallet.png"></img>
+					    			<span class = "tooltiptext">Frozen Mallet<p7><br>Health: +400</p7></span>
+				    			</a>
+				    			<p7>Becomes a Glacial</p7>
+			    			</div>
+			    		</dd>
+			    		<br>
+			    		<dd>
+			    			<div class = "tooltip">
+			    				<a>
+					    			+ <img src = "images/items/spatula.png"></img>
+				    			</a>
+				    			<a>
+				    				= <img src = "images/items/forceofnature.png"></img>
+					    			<span class = "tooltiptext">Force of Nature<p7></p7></span>
+				    			</a>
+				    			<p7>Increases the unit cap by 1</p7>
 			    			</div>
 			    		</dd>
 			    	</dt>
 			    </div>
 			</div>
 	    </dl>
-	    <div class = "items">	<!-- Display items -->
+	    <div class = "items">	<!-- Display item components -->
 	    	<div class = "tooltip">
 	    		<a>
 	    			<img src = "images/items/bfsword.png"></img>
@@ -173,7 +933,5 @@
 	    		</a>
 	    	</div>
 	    </div>    
-	    
     </body>
-
 </html>
