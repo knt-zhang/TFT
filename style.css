@@ -136,6 +136,7 @@ body img{
 	position: relative;
 	display: inline-block;
 	padding: 2px;
+
 }
 .tooltip .tooltiptext{
 	visibility: hidden;
@@ -157,35 +158,35 @@ body img{
 .row{	/* 1 star */
 	position: absolute;
 	top: 119px;
-	left: 320px;
+	left: 340px;
 	height: 100px;
 	width: 1200px;
 }
 .row1{	/* 2 star */
 	position: absolute;
 	top: 167px;
-	left: 320px;
+	left: 340px;
 	height: 100px;
 	width: 1200px;
 }
 .row2{	/* 3 star */
 	position: absolute;
 	top: 215px;
-	left: 320px;
+	left: 340px;
 	height: 100px;
 	width: 1200px;
 }
 .row3{	/* 4 star */
 	position: absolute;
 	top: 263px;
-	left: 320px;
+	left: 340px;
 	height: 100px;
 	width: 1200px;
 }
 .row4{	/* 5 star */
 	position: absolute;
 	top: 311px;
-	left: 320px;
+	left: 340px;
 	height: 100px;
 	width: 1200px;
 }
