@@ -56,7 +56,7 @@ body:after{
 	background-repeat: no-repeat;  
 	background-position: center;
 	background-size: cover;
-	height: 145%;
+	height: 160%;/*145*/
 }
 /* Formatting the navigation links */
 /*body nav{
@@ -224,5 +224,12 @@ body img{
 	width: 23.7%;
 	padding: 10px;
 	height: 570px;
+
+}
+/* Combining items */
+footer{
+	position: relative;
+	top: 400px;
+	left: -1500px;
 
 }
